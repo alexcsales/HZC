@@ -1,5 +1,10 @@
-:root {
+@font-face {
+  font-family: 'icones';
+  src: url(../font/icones.ttf);
+}
 
+:root {
+/*cores*/
 --corpo: #1D232A;
 --cabeçalho: #1D232A;
 --cabeçalho-mobile: #15191C;
@@ -10,10 +15,27 @@
 --links: #0480DC;
 --botão: #0480DC;
 --sombras: rgba(0, 0, 0, 0.16);
+
+/*icones*/
+--camisas: '\e900';
+--carrinho: '\e901';
+--inicio: '\e902';
+--integrantes: '\e903';
+--menu: '\e904';
+--moeda: '\e905';
+--notificação: '\e906';
+--pico: '\e908';
+--picos: '\e909';
+--pinturas: '\e90a';
+--play: '\e90b';
+--relogio: '\e90c';
+--seta-baixo: '\e90d';
+--videos: '\e90e';
+--visualizacao: '\e90f';
 }
 
 body {
   background: var(--corpo);
   color: var(--fonte);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans','icones', sans-serif;
 }
