@@ -32,6 +32,17 @@
   flex-direction: column;
   width: 75vw;
   height: 100vh;
+
+  position: absolute;
+  left: -100vw;
+  transition: left .25s;
+  z-index: 99;
+}
+
+.menu-lateral--ativo {
+  left: 0;
+  transition: left .25s;
+
 }
 
 .menu-lateral__logo {
