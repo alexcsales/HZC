@@ -1,30 +1,30 @@
 <h1 align='center'>HZC<h1>
-<h3 align='center'>📚Project of a skateboard community page  of the Flexbox and grid course by @alura.</h3>
+<h3 align='center'>📚Projeto de comunidade de skate do curso Flexbox e grid by @alura.</h3>
 
-<h4 align='center'>🚧README project 🚀 under construction...🚧</h4>
+<h4 align='center'>🚧README 🚀projeto em construção...🚧</h4>
   
  <h1 align="center">
   <img height="20%" width="60%" alt="GIF-Project"  src=""/>
 <h1/>
   <hr>
   
-<h2 align='center'>🖥️ Prerequisites</h2>
-  <p>Before starting, you will need to have the following tools installed: <a href='https://git-scm.com/downloads'>Git<a>. Also it's nice to have an editor to work with code like <a href='https://code.visualstudio.com/download'>VScode<a/>.</p>
+<h2 align='center'>🖥️Pré-requisitos</h2>
+  <p>Antes de começar, você precisará ter as seguintes ferramentas instaladas: <a href='https://git-scm.com/downloads'>Git<a>. Também é bom ter um editor para trabalhar com código como <a href='https://code.visualstudio.com/download'>VScode<a/>.</p>
     
- ### 📖 Instructions:
+ ### 📖 Instruções:
     
  ```bash
- # Clone this repository:
+ # Clonar este repositório:
  $ git clonehttps://github.com/alexcsales/HZC
- # Run file:
- $ In the browser, type Ctrl + O and open the index.html
+ # Executar arquivo:
+ $ No navegador, precione Ctrl + O e abra o arquivo index.html
  ```
     
- ### 🛠 Technologies
- The following tools were used in building the project:
+ ### 🛠 Tecnologias
+ As seguintes ferramentas foram utilizadas na construção do projeto:
    - HTML<br>
    - CSS<br>
  - JavaScript
     <hr>
     
-  <p>By ALEX🤘 <a href='https://www.linkedin.com/in/alexsales-dev/'>See my linkedin<a></p>
+  <p>De ALEX🤘 <a href='https://www.linkedin.com/in/alexsales-dev/'>Veja meu linkedin<a></p>
