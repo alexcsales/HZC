@@ -9,11 +9,11 @@
 --cabeçalho: #1D232A;
 --cabeçalho-mobile: #15191C;
 --menu-lateral: #15191C;
---cartão: #2C343A;
+--cartao: #2C343A;
 --fonte: #FFFFFF;
 --fonte-alternativa: #95999C;
 --links: #0480DC;
---botão: #0480DC;
+--botao: #0480DC;
 --sombras: rgba(0, 0, 0, 0.16);
 
 /*icones*/
@@ -23,7 +23,7 @@
 --integrantes: '\e903';
 --menu: '\e904';
 --moeda: '\e905';
---notificação: '\e906';
+--notificacao: '\e906';
 --pico: '\e908';
 --picos: '\e909';
 --pinturas: '\e90a';
