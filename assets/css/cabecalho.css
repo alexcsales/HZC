@@ -22,7 +22,7 @@
 }
 
 .cabecalho__notificacao i::before {
-  content: var(--notificação);
+  content: var(--notificacao);
   font-size: 1.5rem;
 }
 
