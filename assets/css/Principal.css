@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'icones';
+  src: url(../font/icones.ttf);
+}
+
+.principal {
+  padding: 1.5rem 1rem;
+}
+
+.titulo__pagina {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.cartao {
+  background: var(--cartao);
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.cartao__conteudo {
+  padding: 1rem;
+}
+
+.cartao__titulo {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.cartao__perfil {
+  color: var(--fonte-alternativa);
+  font-size: 0.9rem;
+}
+
+.cartao__info {
+  display: flex;
+  align-items: center;
+  color: var(--fonte-alternativa);
+}
+
+.cartao__info--tempo {
+  content: var(--relogio);
+  margin-right: 0.5rem;
+}
+
+.cartao__info--visualizacao {
+  content: var(--visualizacao);
+  margin-right: 0.5rem;
+}
+
+.cartao__botao {
+  background: var(--botao);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.play::before {
+  content: var(--play);
+  font-size: 1.5rem;
+}
+
+.cartao__botao--destaque {
+  width: 100%;
+}
+
+.cartao__botao--destaque::before {
+  margin-right: 0.5rem;
+}
