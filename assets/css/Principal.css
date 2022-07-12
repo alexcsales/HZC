@@ -20,16 +20,20 @@
 }
 
 .cartao__conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 1rem;
 }
 
 .cartao__titulo {
+  grid-column: span 2;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
 .cartao__perfil {
   color: var(--fonte-alternativa);
+  grid-column: span 2;
   font-size: 0.9rem;
 }
 
@@ -39,12 +43,12 @@
   color: var(--fonte-alternativa);
 }
 
-.cartao__info--tempo {
+.cartao__info--tempo::before {
   content: var(--relogio);
   margin-right: 0.5rem;
 }
 
-.cartao__info--visualizacao {
+.cartao__info--visualizacao::before {
   content: var(--visualizacao);
   margin-right: 0.5rem;
 }
@@ -54,6 +58,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-column: span 2;
   width: 100%;
   height: 2.5rem;
   border-radius: 10px;
