@@ -6,7 +6,7 @@
 ### ⚙ Features
 - [x] Cabeçalho<br>
 - [x] Menu Lateral<br>
-- [x] Principal<br>
+- [ ] Principal<br>
 - [ ] Layout desktop<br>
 - [ ] detalhes do layout desktop<br>
   
