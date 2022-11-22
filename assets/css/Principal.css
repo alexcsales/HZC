@@ -4,6 +4,8 @@
 }
 
 .principal {
+  display: grid;
+  gap: 1rem;
   padding: 1.5rem 1rem;
 }
 
@@ -17,6 +19,10 @@
   width: 100%;
   border-radius: 15px;
   overflow: hidden;
+}
+
+.cartao--destaque {
+  margin-bottom: 1rem;
 }
 
 .cartao__conteudo {
@@ -58,23 +64,34 @@
   background: var(--botao);
   display: flex;
   justify-content: center;
+  justify-self: end;
   align-items: center;
-  grid-column: span 2;
-  width: 100%;
+  width: 2.5rem;
   height: 2.5rem;
   border-radius: 10px;
   font-size: 0.9rem;
 }
 
-.play::before {
+.cartao__botao--play::before {
   content: var(--play);
   font-size: 1.5rem;
 }
 
 .cartao__botao--destaque {
   width: 100%;
+  grid-column: span 2;
 }
 
 .cartao__botao--destaque::before {
   margin-right: 0.5rem;
+}
+
+.secao {
+  display: grid;
+  gap: 1rem;
+}
+
+.titulo__secao {
+  font-size: 1.2rem;
+  font-weight: 700;
 }
