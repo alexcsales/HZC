@@ -22,7 +22,7 @@
     
  ```bash
  # Clonar este repositório:
- $ git clonehttps://github.com/alexcsales/HZC
+ $ git clone https://github.com/alexcsales/HZC
  # Executar arquivo:
  $ No navegador, precione Ctrl + O e abra o arquivo index.html
  ```
