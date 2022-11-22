@@ -2,6 +2,13 @@
 <h3 align='center'>📚Projeto de comunidade de skate do curso Flexbox e grid by @alura.</h3>
 
 <h4 align='center'>🚧README 🚀projeto em construção...🚧</h4>
+
+### ⚙ Features
+- [x] Cabeçalho<br>
+- [x] Menu Lateral<br>
+- [x] Principal<br>
+- [ ] Layout desktop<br>
+- [ ] detalhes do layout desktop<br>
   
  <h1 align="center">
   <img height="20%" width="60%" alt="GIF-Project"  src=""/>
