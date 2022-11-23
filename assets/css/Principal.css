@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'icones';
-  src: url(../font/icones.ttf);
-}
-
 .principal {
   display: grid;
   gap: 1rem;
@@ -84,6 +79,10 @@
 
 .cartao__botao--destaque::before {
   margin-right: 0.5rem;
+}
+
+.cartao--recentes {
+  display: none;
 }
 
 .secao {
