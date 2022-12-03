@@ -6,9 +6,8 @@
 ### ⚙ Features
 - [x] Cabeçalho<br>
 - [x] Menu Lateral<br>
-- [ ] Principal<br>
-- [ ] Layout desktop<br>
-- [ ] detalhes do layout desktop<br>
+- [x] Conteudo principal<br>
+- [x] Layout desktop<br>
   
  <h1 align="center">
   <img height="20%" width="60%" alt="GIF-Project"  src=""/>
