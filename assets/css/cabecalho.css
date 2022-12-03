@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  grid-column: 2;
   padding: 0.5rem 1rem;
   box-shadow: 0px 4px 4px var(--sombras);
 }
@@ -23,54 +24,6 @@
 .cabecalho__notificacao i::before {
   content: var(--notificacao);
   font-size: 1.5rem;
-}
-
-@media screen and (min-width:1440px) {
-  .cabecalho {
-    box-sizing: border-box;
-    background-color: var(--cabeçalho);
-    display: grid;
-    grid-template-columns: 1fr auto;
-    column-gap: 2rem;
-    height: 5rem;
-    padding: 1rem 3.75rem;
-  }
-
-  .cabecalho__menu {
-    display: none;
-  }
-
-  .cabecalho__logo {
-    display: none;
-  }
-
-  .cabecalho__perfil {
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    align-items: center;
-    justify-self: flex-end;
-    column-gap: 0.5rem;
-    color: var(--fonte-alternativa);
-    border-right: 1px solid var(--fonte-alternativa);
-    padding: 0.5rem 2rem;
-  }
-
-  .cabecalho__perfil::before {
-    content: "";
-    background-image: url(../img/profile_2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: block;
-    width: 2rem;
-    height: 2rem;
-  }
-
-  .cabecalho__perfil::after {
-    content: var(--seta-baixo);
-    color: var(--fonte);
-    font-size: 1.5rem;
-  }
 }
 
 .menu-lateral {
@@ -138,4 +91,56 @@
 }
 .menu-lateral__link:nth-child(7)::before {
   content: var(--pinturas);
+}
+
+@media screen and (min-width:1440px) {
+  .cabecalho {
+    box-sizing: border-box;
+    background-color: var(--cabeçalho);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 2rem;
+    height: 5rem;
+    padding: 1rem 3.75rem;
+  }
+
+  .cabecalho__menu, .cabecalho__logo {
+    display: none;
+  }
+
+  .cabecalho__perfil {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    align-items: center;
+    justify-self: flex-end;
+    column-gap: 0.5rem;
+    color: var(--fonte-alternativa);
+    border-right: 1px solid var(--fonte-alternativa);
+    padding: 0.5rem 2rem;
+  }
+
+  .cabecalho__perfil::before {
+    content: "";
+    background-image: url(../img/profile_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .cabecalho__perfil::after {
+    content: var(--seta-baixo);
+    color: var(--fonte);
+    font-size: 1.5rem;
+  }
+
+  .menu-lateral {
+    position: static;
+    width: 200px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+  
 }
