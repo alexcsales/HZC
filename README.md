@@ -1,5 +1,5 @@
 <h1 align='center'>HZC<h1>
-<h3 align='center'>📚Projeto de comunidade de skate do curso Flexbox e grid by @alura.</h3>
+<h3 align='center'>📚Projeto de curso: Paginá de uma comunidade de skate.</h3>
 
 <h4 align='center'>🚧README 🚀projeto em construção...🚧</h4>
 
